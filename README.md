@@ -41,6 +41,8 @@ The AST explorer provides following code parsers:
   - [luaparse][]
 - Markdown:
   - [remark][]
+- [MDX][]:
+  - [mdxhast][]
 - PHP
   - [php-parser][]
 - Regular Expressions:
@@ -50,7 +52,8 @@ The AST explorer provides following code parsers:
 - SQL:
   - [sqlite-parser][]
 - [WebIDL][]
-- YAML
+- YAML:
+  - [yaml][]
   - [yaml-ast-parser][]
   - [yaml-unist-parser][]
 
@@ -78,6 +81,8 @@ are included so you can prototype your own plugins:
   - [tslint][]
 - CSS
   - [postcss][]
+- MDX
+  - [mdx][]
 - Regular Expressions
   - [regexp-tree][]
 - Handlebars
@@ -136,8 +141,12 @@ node.
 [icu]: https://github.com/yahoo/intl-messageformat-parser
 [json]: https://github.com/vtrushin/json-to-ast
 [sqlite-parser]: https://github.com/codeschool/sqlite-parser
+[yaml]: https://github.com/eemeli/yaml
 [yaml-ast-parser]: https://github.com/mulesoft-labs/yaml-ast-parser
 [esformatter]: https://github.com/millermedeiros/esformatter-parser#readme
+[MDX]: https://mdxjs.com/
+[mdxhast]: https://mdxjs.com/advanced/ast#mdxhast
+[mdx]: https://mdxjs.com/advanced/sync-api
 [Scalameta]: http://scalameta.org/
 [yaml-unist-parser]: https://github.com/ikatyang/yaml-unist-parser
 
